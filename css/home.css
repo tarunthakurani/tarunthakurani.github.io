@@ -1,0 +1,49 @@
+.container, body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-size: cover;
+  position: relative;
+  /*background: radial-gradient(at 50% 25%, rgba(40, 79, 99, .95) 20%, rgba(0, 29, 42, .95) 80%);*/
+  /*background: -webkit-radial-gradient(circle, rgb(40, 79, 99), rgb(0, 29, 42));*/
+  /* IE10+ */
+background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #2A5266 0%, #001D2A 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #2A5266 0%, #001D2A 100%);
+
+/* Opera */
+background-image: -o-radial-gradient(center top, ellipse farthest-corner, #2A5266 0%, #001D2A 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(radial, center top, 0, center top, 359, color-stop(0, #2A5266), color-stop(100, #001D2A));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #2A5266 0%, #001D2A 100%);
+
+/* W3C Markup */
+background-image: radial-gradient(ellipse farthest-corner at center top, #2A5266 0%, #001D2A 100%);
+}
+
+.quote {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #a0a0a0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.status {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: #808080;
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}
